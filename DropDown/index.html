@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DropDown</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/DropDown.css">
+</head>
+
+<body>
+    <div id="DropDownID1">
+        <div id="selectArea" class="selectArea">
+            <div id="defaultArea" class="defaultArea" onclick="javascript:DropDown(this);">
+                <ul style="margin: 0;padding: 0;list-style: none;">
+                    <li id="default" class="option" value=" -- 選擇 -- "> -- 選擇 -- </li>
+                </ul>
+                <div class="arrowIcon">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+
+            <div class="options">
+                <ul style="margin: 0;padding: 0;list-style: none;">
+                    <li class="option" onclick="javascript:SelectItem(this)" value=" -- 選擇 -- "> -- 選擇 -- </li>
+                    <li class="option" onclick="javascript:SelectItem(this)" value="選項1">選項1</li>
+                    <li class="option" onclick="javascript:SelectItem(this)" value="選項1">選項2</li>
+                    <li class="option" onclick="javascript:SelectItem(this)" value="選項1">選項3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/DropDown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.selectArea {
+    font-size: 14px;
+}
+
+.defaultArea {
+    position: relative;
+    line-height: 1.75rem;
+    border: 1px #aaaaaa solid;
+    background: linear-gradient(#f7f7f7, #dddddd);
+    user-select: none;
+    z-index: 5;
+}
+
+.option {
+    padding: 0 10px 0 10px;
+}
+
+.arrowIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+    height: 2rem;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    margin: 12px auto;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid black;
+}
+
+.options {
+    position: absolute;
+    display: none;
+    top: -1px;
+    line-height: 1.25rem;
+    background: #edf5ff;
+    border: 1px #aaaaaa solid;
+    overflow-y: scroll;
+    user-select: none;
+    z-index: 10;
+}
+
+.options li.option:hover {
+    color: white;
+    background: #1e90ff;
+}
+
+.subTitle {
+    font-weight: bold;
+    font-size: 16px;
+}
