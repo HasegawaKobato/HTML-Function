@@ -6,7 +6,7 @@
 
 ------------
 ### 目錄：
-- DropDown - [查看說明](#DropDown "查看說明") - 可自定義下拉式選單。
+- [DropDown](https://github.com/HasegawaKobato/HTML-Function/tree/master/DropDown "DropDown") - [查看說明](#DropDown "查看說明") - 可自定義下拉式選單。
 
 ------------
 ### 說明：
